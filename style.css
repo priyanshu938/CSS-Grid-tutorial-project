@@ -11,7 +11,7 @@
   transition: 0.2s linear;
 }
 
-.container {
+body {
   background-image: linear-gradient(
     to right,
     #051937,
@@ -20,6 +20,10 @@
     #5f30c6,
     #9f12eb
   );
+}
+.container {
+  height: auto;
+  width: auto;
   padding: 15px 50px 100px 50px;
 }
 
@@ -28,7 +32,7 @@
   padding-bottom: 15px;
   color: #fff;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 .box-container {
